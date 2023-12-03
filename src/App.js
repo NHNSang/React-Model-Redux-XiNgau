@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import DienThoai from "./component/BaiTapDienThoai/DienThoai";
+import DemoRedux from "./component/DemoRedux/DemoRedux";
+import GameDoXiNgau from "./component/DemoRedux/GameDoXiNgau/GameDoXiNgau";
+import HienThiGioHang from "./component/ModelGioHang/HienThiGioHang";
+import ShoesStore from "./component/ShoesProduct/ShoesStore";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App container">
+      {/* <DienThoai></DienThoai> */}
+      {/* <HienThiGioHang></HienThiGioHang> */}
+      {/* <DemoRedux></DemoRedux> */}
+      {/* <GameDoXiNgau></GameDoXiNgau> */}
+      <ShoesStore></ShoesStore>
     </div>
   );
 }
